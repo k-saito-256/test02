@@ -2,11 +2,16 @@
   "name": "travis_test" ,
   "version": "0.0.1",
   "dependencies": {
+    "express": "4.10.2",
+    "ejs": "*"
   },
   "devDependencies": {
+    "express": "4.10.2",
+    "ejs": "*",
     "mocha": "*"
   },
   "scripts": {
+    "start": "node app.js",
     "test": "mocha test/*"
   },
   "engines": {
